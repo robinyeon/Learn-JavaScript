@@ -1,2 +1,2 @@
-# Learn-JavaScript
+# Learn JavaScript
 🧗 One giant leap
