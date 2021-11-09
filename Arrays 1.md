@@ -64,9 +64,6 @@ Thus, it's always a good idea to use the plural for the array and singular for t
 - grades => item is grade
 - people => item is person
 
-***문제 다시 풀기***
-
-
 
 
 
