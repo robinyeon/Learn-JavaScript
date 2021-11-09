@@ -32,3 +32,21 @@ numbers.find(function(number) {
     return number >= 12;
 }); // 14
 ```
+
+### Array includes(item)
+Returns true when that item exists in the array and false otherwise.
+
+### Array join(glue)
+```.toString()``` method of the array which returns a string of the array elements separated by commas. Here's how it works:
+```
+const groceries = ["Apple", "Peach", "Tomato"];
+groceries.toString(); // "Apple,Peach,Tomato"
+```
+But there's a downside, which is that you cannot customize the glue that gets inserted in between the array items, which is the comma ```,``` character.          
+
+If you'd like to customize the glue, then you can use the ```.join(glue)``` method:
+```
+const groceries = ["Apple", "Peach", "Tomato"];
+groceries.join("; "); // "Apple; Peach; Tomato"
+groceries.join(" . "); // "Apple . Peach . Tomato"
+```
