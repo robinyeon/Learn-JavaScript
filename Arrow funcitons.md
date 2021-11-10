@@ -60,7 +60,7 @@ const sum = (a, b) => {
 
 <br/>
 
-## Revisiting rray methods
+## Revisiting array methods
 ### forEach()
 ```
 const grades = [1, 2, 3];
