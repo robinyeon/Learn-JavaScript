@@ -49,9 +49,6 @@ console.log(items); // []
 ```
 
 ### 2. Array.splice()
-fyi)        
-- ```str.split(seperator[, limit])```     
-- ```arr.slice(begin[, end])```       
 - ```.splice(start[, deleteCount])``` removes items from the array from the ```start``` index. The number of items it will remove is specified by ```deleteCount```.
 - If you omit ```deleteCount```, it will remove all the items as of the ```start``` index.
 ```
@@ -62,7 +59,9 @@ console.log(deletedItem); // ["Pen"]
 console.log(items); // ["Paper", "Staples"]
 ```
 
-
+*fyi)*        
+- ```str.split(seperator[, limit])```     
+- ```arr.slice(begin[, end])```       
 
 
 
