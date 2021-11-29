@@ -1,5 +1,3 @@
-***WIP***
-
 ## Using array methods
 - Calling the `.filter()` method on an array of objects will return an **array** containing the objects that pass the condition you specify in the callback.
 - Calling the `.find()` method on an array of objects will return the **first object** that matches the condition you specify in the callback, or `undefined` if no objects satisfy the condition.
