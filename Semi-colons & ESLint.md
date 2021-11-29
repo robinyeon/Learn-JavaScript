@@ -9,7 +9,7 @@
 ### Setup ESLint for VSCode
 1. Open VSCode, click on the Extensions tab and then search for ESLint and click on the first result "ESLint".
 2. Click on the Install button.
-3. At the root of your project, create a file called .eslintrc.json (don't forget the leading dot character)
+3. At the root of your project, create a file called `.eslintrc.json` (don't forget the leading dot character)
 4. Write the below inside this file and save it
 ```
 {
